@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Notifications";
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        var signalRHost = '@ViewData["SignalRHost"]';
+    </script>
+    <script type="text/javascript" src="~/js/notification.js"></script>
+}
+
+<div class="row" id="notificationArea">
+   <br/>
+   <br/>
+   <h2>Notifications received from SignalR running on another host</h2>
+</div>

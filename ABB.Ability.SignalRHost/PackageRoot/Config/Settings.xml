@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Section Name="SignalRScaleout">
+    <Parameter Name="UseScaleout" Value="true" />
+    <Parameter Name="ServiceBusConnectionString" Value="[Your Service Bus Connection String]" />
+    <Parameter Name="ServiceBusBackplaneTopic" Value="AbilityNotificationsBackplane" />
+    <Parameter Name="ServiceBusNotificationTopic" Value="AbilityNotifications" />
+    <Parameter Name="TopicSubscriptionName" Value="AbilityNotificationsSubscriber" />
+    <Parameter Name="EncryptionPassword" Value="XABGH5678HJLKKP644747HHHJ" />
+  </Section>
+</Settings>
